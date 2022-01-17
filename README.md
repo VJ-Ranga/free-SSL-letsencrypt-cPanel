@@ -1,7 +1,7 @@
 # free-SSL-letsencrypt-
 Manually install free letsencrypt SSL
 
-### install certbot
+### install certbot(ubuntu)
 sudo apt-get install certbot
 
 ### letsencrypt SSL
