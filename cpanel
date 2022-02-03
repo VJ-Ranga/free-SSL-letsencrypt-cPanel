@@ -1,0 +1,7 @@
+curl https://get.acme.sh
+.acme.sh/acme.sh --issue -d example.com -w /home/wwwroot/example.com
+
+
+export CF_Key="sdfsdfsdfljlbjkljlkjsdfoiwje"
+export CF_Email="xxxx@sss.com"
+.acme.sh/acme.sh  --issue --force --server letsencrypt -d example.com  -d '*.example.com'  --dns dns_cf
