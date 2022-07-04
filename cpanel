@@ -1,4 +1,4 @@
-curl https://get.acme.sh
+curl https://get.acme.sh | sh
 .acme.sh/acme.sh --issue -d example.com -w /home/wwwroot/example.com
 
 
