@@ -14,7 +14,7 @@ certbot certonly --manual -d *.yourdomain.com -d yourdomain.com --agree-tos --ma
 # free-SSL-letsencrypt-cPanel
 Manually install free letsencrypt SSL cPanel (namecheap, godaddy,etc...)
 
-### install
+### install acme.sh
 curl https://get.acme.sh | sh
 
 ### letsencrypt SSL
@@ -26,3 +26,6 @@ export CF_Key="sdfsdfsdfljlbjkljlkjsdfoiwje"
 export CF_Email="xxxx@sss.com"
 
 .acme.sh/acme.sh  --issue --force --server letsencrypt -d example.com  -d '*.example.com'  --dns dns_cf
+
+### Install SSL
+acme.sh --deploy --deploy-hook cpanel_uapi --domain example.com
