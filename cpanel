@@ -5,3 +5,4 @@ curl https://get.acme.sh | sh
 export CF_Key="sdfsdfsdfljlbjkljlkjsdfoiwje"
 export CF_Email="xxxx@sss.com"
 .acme.sh/acme.sh  --issue --force --server letsencrypt -d example.com  -d '*.example.com'  --dns dns_cf
+acme.sh --deploy --deploy-hook cpanel_uapi --domain example.com
