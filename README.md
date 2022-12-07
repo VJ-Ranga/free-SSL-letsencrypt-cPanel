@@ -28,4 +28,4 @@ export CF_Email="xxxx@sss.com"
 .acme.sh/acme.sh  --issue --force --server letsencrypt -d example.com  -d '*.example.com'  --dns dns_cf
 
 ### Install SSL
-acme.sh --deploy --deploy-hook cpanel_uapi --domain example.com
+.acme.sh/acme.sh --deploy --deploy-hook cpanel_uapi --domain example.com
