@@ -29,3 +29,7 @@ export CF_Email="xxxx@sss.com"
 
 ### Install SSL
 .acme.sh/acme.sh --deploy --deploy-hook cpanel_uapi --domain example.com
+
+
+### Hestiacp SSL issue fix
+sudo /usr/local/hestia/bin/v-add-letsencrypt-host
